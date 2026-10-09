@@ -1,0 +1,19 @@
+{
+  "name": "catalog-service",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "forwardPorts": [3000],
+  "postAttachCommand": "node -v && npm -v && docker --version",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "humao.rest-client",
+        "eamodio.gitlens"
+      ]
+    }
+  }
+}
