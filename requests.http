@@ -1,0 +1,5 @@
+### Health check
+GET http://localhost:3000/health
+
+### Unknown route (expect 404)
+GET http://localhost:3000/does-not-exist

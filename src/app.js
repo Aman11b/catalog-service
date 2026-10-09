@@ -5,6 +5,8 @@ import { notFound,errorHandler } from "./middlewares/errors.middleware.js"
 
 export function createApp(){
     const app=express();
+    app.disable('x-powered-by');
+    // / don't reveal our framework in response headers
 
     app.use(express.json());
 
