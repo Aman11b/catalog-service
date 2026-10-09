@@ -1,0 +1,28 @@
+{
+  "name": "catalog-service",
+  "version": "1.0.0",
+  "description": "Legacy product catalog microservice built with **Node.js** and **Express**, originally using AWS services.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch --env-file=.env src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aman11b/catalog-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aman11b/catalog-service/issues"
+  },
+  "homepage": "https://github.com/Aman11b/catalog-service#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
